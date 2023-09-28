@@ -1,9 +1,78 @@
-h1 {
- color: #4c3a37;
+.header {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    background-color: #b2a000;
+    font-family: 'Mooli', sans-serif;
 }
-h4 {color:#dc3131e6 }
 
-button {color: aqua; 
-    background-color:azure
- }
- body {background-color:#3c3332}
+.header>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 15%;
+    height: 100%
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #952f29;
+    font-weight: 500;
+}
+
+.actions {
+    width: 14%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Estilos imagenes */
+img {
+    height: 100%;
+}
+
+/* Estilos botones */
+button {
+    background-color: unset;
+    border: unset;
+    min-height: 40px;
+    min-width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 213, 0, 1);
+}
+
+.primary-button {
+    color: rgb(180, 54, 34);
+}
+
+.secundary-button {
+    background-color: rgb(211, 195, 55);
+}
+
+/* Estilo lista (menu navbar) */
+ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+li:hover {}
+
+li a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
