@@ -76,3 +76,25 @@ li a {
     text-align: center;
     text-decoration: none;
 }
+
+.promo {
+    display:flex;
+ width: 70%;
+margin: 100px auto;
+align-items: center;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #8a1111;
+
+
+}
+
+.main {
+margin-top:100px;
+
+}
